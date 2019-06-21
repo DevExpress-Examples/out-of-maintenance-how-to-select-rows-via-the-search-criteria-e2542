@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to select rows via the "Search" criteria
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2542/)**
+<!-- run online end -->
 
 
 <p>The example demonstrates how to select the ASPxGridView's rows based on some criteria. <br />
