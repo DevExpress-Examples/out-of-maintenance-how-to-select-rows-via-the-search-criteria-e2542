@@ -8,7 +8,7 @@ public partial class _Default : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
 
     }
-    protected void ASPxGridView1_CustomCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs e) {
+    protected void ASPxGridView1_CustomCallback(object sender, DevExpress.Web.ASPxGridViewCustomCallbackEventArgs e) {
         ASPxGridView1.Selection.UnselectAll();
         string[] parameters = e.Parameters.Split(';');
         Boolean index = Convert.ToBoolean(parameters[0]);
